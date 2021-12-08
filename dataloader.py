@@ -71,16 +71,17 @@ if __name__ == '__main__':
             'data/NFS/basketball_1/30/basketball_1.txt',
             'data/NFS/basketball_2/30/basketball_2.txt',
             'data/NFS/basketball_2/240/basketball_2.txt',
-            'data/NFS/airtable_3/30/airtable_3.txt',
-            'data/NFS/airtable_3/240/airtable_3.txt',
-            'data/NFS/airplane_landing/30/airplane_landing.txt',
-            'data/NFS/airplane_landing/240/airplane_landing.txt',
-            'data/NFS/airboard_1/30/airboard_1.txt',
-            'data/NFS/airboard_1/240/airboard_1.txt']
+            # 'data/NFS/airtable_3/30/airtable_3.txt',
+            # 'data/NFS/airtable_3/240/airtable_3.txt',
+            # 'data/NFS/airplane_landing/30/airplane_landing.txt',
+            # 'data/NFS/airplane_landing/240/airplane_landing.txt',
+            # 'data/NFS/airboard_1/30/airboard_1.txt',
+            # 'data/NFS/airboard_1/240/airboard_1.txt'
+            ]
     x_train, y_train, x_test, y_test = [], [], [], []
     for i in data:
         boxes_df = parse_boxes(i)
-        x1, y1, x2, y2 = create_training_data(boxes_df, history_size=10, forecast_size=1, train_split=0.8, dataset_size=1000, save=False, save_folder='data')
+        x1, y1, x2, y2 = create_training_data(boxes_df, history_size=10, forecast_size=1, train_split=0.8, dataset_size=3000, save=False, save_folder='data')
         x_train.append(x1)
         y_train.append(y1)
         x_test.append(x2)
