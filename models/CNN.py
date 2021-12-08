@@ -13,16 +13,18 @@ class CNNForecaster(nn.Module):
         self.dropout = dropout
         self.embedding_size = embedding_size
         
-        self.embedding = nn.Linear(input_shape[0] * input_shape[1], input_shape[1] * self.embedding_size)
+        self.embedding = nn.Linear(input_shape[0] * input_shape[1], input_shape[1] * self.embedding_size, bias=False)
+                
+        self.conv_layers = nn.ModuleList()
+
+        # self.max_pool = nn.MaxPool1d(kernel_size=3, stride=1, padding=1)
         
-        self.conv1 = nn.Conv1d(self.embedding_size, self.embedding_size, kernel_size=3, stride=1, padding=1)
+        for i in range(num_layers):
+            self.conv_layers.append(nn.Conv1d(self.embedding_size, self.embedding_size, kernel_size=3, stride=1, padding=1, dilation=1))
+            # self.conv_layers.append(nn.ReLU())
+            # self.conv_layers.append(self.max_pool)
         
-        self.conv_layers = []
-        
-        for i in range(1, num_layers):
-            self.conv_layers.append(nn.Conv1d(self.embedding_size, self.embedding_size, kernel_size=3, stride=1, padding=1))
-        
-        self.max_pool = nn.MaxPool1d(kernel_size=3, stride=1, padding=1)
+        self.conv_seq = nn.Sequential(*self.conv_layers)
         
         self.fc = nn.Linear(self.embedding_size * input_shape[1], output_shape[0] * output_shape[1])
         self.dropout = nn.Dropout(dropout)
@@ -31,15 +33,12 @@ class CNNForecaster(nn.Module):
         
         x = x.flatten(start_dim=1)
         embedded_x = self.embedding(x)
-        embedded_x = embedded_x.view(embedded_x.size(0), self.input_shape[1], self.embedding_size)
-        embedded_x = embedded_x.permute(0, 2, 1)
+        embedded_x = embedded_x.view(embedded_x.size(0), self.embedding_size, self.input_shape[1])
         
-        output = self.max_pool(F.relu(self.conv1(embedded_x)))
-        for layer in self.conv_layers:
-            output = self.max_pool(F.relu(layer(output)))
+        output = self.conv_seq(embedded_x)
         
         output = output.flatten(start_dim=1)
-        output = self.dropout(output)
+        # output = self.dropout(output)
         output = self.fc(output)
         
         return output
@@ -60,8 +59,8 @@ if __name__ == "__main__":
     output shape: (2, 8)
     num_layers: 4
     """
-    model = CNNForecaster((2, 8), (2, 8), 4, 0.5, 32)
-    test_tensor = torch.randn(32, 2, 8)
+    model = CNNForecaster((4, 20), (4, 1), 4, 0.5, 32)
+    test_tensor = torch.randn(32, 4, 20)
     
     output = model(test_tensor)
     output = model.reshape_output(output)
