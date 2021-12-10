@@ -1,0 +1,102 @@
+#!/bin/bash
+
+# curl -L -o airboard_1.zip -C - https://cmu.box.com/shared/static/gl5o6qmq7i8da8w4px55ykvffjufw2m6.zip
+# curl -L -o airplane_landing.zip -C - https://cmu.box.com/shared/static/kbx27fz51udgk4k08qh6l0yjmn9h3743.zip
+# curl -L -o airtable_3.zip -C - https://cmu.box.com/shared/static/tuizb68pqafhooo4753nrk4b2iwwrmj8.zip
+# curl -L -o basketball_1.zip -C - https://cmu.box.com/shared/static/k9rkgfqp4ww7hickuo37z68d5l032fdx.zip
+# curl -L -o basketball_2.zip -C - https://cmu.box.com/shared/static/3n35fna4pxds6mme3ktfi0yyy1ag9bev.zip
+# # curl -L -o basketball_3.zip -C - https://cmu.box.com/shared/static/6cgpljm8m5a661kzj6i7v8khnsb40sqt.zip
+# curl -L -o basketball_6.zip -C - https://cmu.box.com/shared/static/7w1yo0id3krn390ui7rksr01a4zsghot.zip
+# curl -L -o basketball_7.zip -C - https://cmu.box.com/shared/static/o8sranilinpk6rh5b8ncokm6ewwgs3f9.zip
+# curl -L -o basketball_player_2.zip -C - https://cmu.box.com/shared/static/pwoeqsznhjghn0ud86wtyc6iq3t8kcpg.zip
+curl -L -o basketball_player.zip -C - https://cmu.box.com/shared/static/2jao7zdh7ptepels8jegdar807vj0gse.zip
+# curl -L -o beach_flipback_person.zip -C - https://cmu.box.com/shared/static/s5dl1p22hl0odb5cw8wo3kx1izs32ti0.zip
+# curl -L -o bee.zip -C - https://cmu.box.com/shared/static/iiscfusxr9fs1lg1sllnp94fmiatelj3.zip
+# curl -L -o biker_acrobat.zip -C - https://cmu.box.com/shared/static/36xeq1szkw4kqysi2kwvserjn1f56nrk.zip
+# curl -L -o biker_all_1.zip -C - https://cmu.box.com/shared/static/k9xk5q7824ir5r9rosk2sh2atcvpkdip.zip
+# curl -L -o biker_head_2.zip -C - https://cmu.box.com/shared/static/9vhwcibsd9pgcpxkwab39qkesqkaa8gr.zip
+# curl -L -o biker_head_3.zip -C - https://cmu.box.com/shared/static/lq2qmsey7ab8qdmj4dir63t300joog8a.zip
+# curl -L -o biker_upper_body.zip -C - https://cmu.box.com/shared/static/ybvcy7getpa66yp5wl8hvr5fwtjcq1cr.zip
+# curl -L -o biker_whole_body.zip -C - https://cmu.box.com/shared/static/p0d1dq8605uqxkqs78wnc29oc6kwpdjo.zip
+# curl -L -o billiard_2.zip -C - https://cmu.box.com/shared/static/n4rmwxvr6yse4p8x7x7e067tl1ky3toh.zip
+# curl -L -o billiard_3.zip -C - https://cmu.box.com/shared/static/hwq47bsx5k7of5v4xxrzv7fqjox0xmri.zip
+# curl -L -o billiard_6.zip -C - https://cmu.box.com/shared/static/feenuc5mxx79n5epqxz7090mbu1bjicr.zip
+# curl -L -o billiard_7.zip -C - https://cmu.box.com/shared/static/rhfg5o62omd6z5emx1wh6icyhovj3nt0.zip
+# curl -L -o billiard_8.zip -C - https://cmu.box.com/shared/static/0ljpak91o2wpdc19zerd40c5xrcmbxp2.zip
+# curl -L -o bird_2.zip -C - https://cmu.box.com/shared/static/6tpl1h13s85tuz1qd40znsxcb3moqsxg.zip
+# curl -L -o book.zip -C - https://cmu.box.com/shared/static/2iakwsfjhfc1mndjoo8qal1mi3bqcqrx.zip
+# curl -L -o bottle.zip -C - https://cmu.box.com/shared/static/q0zm8prayfthzo3548ebxijimdr21mwp.zip
+# curl -L -o bowling_1.zip -C - https://cmu.box.com/shared/static/hfqq5ni4kn0yrz4p2z5alyo05b3bhhaz.zip
+# curl -L -o bowling_2.zip -C - https://cmu.box.com/shared/static/wcfixjb3q2cbvw5ba6088bs4dorji3v8.zip
+# curl -L -o bowling_3.zip -C - https://cmu.box.com/shared/static/untzldl0nm7jexyeqxsy7l4v8q0wu830.zip
+# curl -L -o bowling_6.zip -C - https://cmu.box.com/shared/static/k7z2ycy557bc8ey7w72d438jklxlz2j0.zip
+# curl -L -o bowling_ball.zip -C - https://cmu.box.com/shared/static/fpodkjyqx6tbs47bn36r0gv5p5o56p0a.zip
+# curl -L -o bunny.zip -C - https://cmu.box.com/shared/static/cmv9rm8kivoj7ly2roj9ig86g3wxbhcs.zip
+# curl -L -o car_camaro.zip -C - https://cmu.box.com/shared/static/a21xuwarx0u2w2os8ylkc6whc25smk23.zip
+# curl -L -o car_drifting.zip -C - https://cmu.box.com/shared/static/jkicgmrspjhfoigq57bllbfvf945kl2i.zip
+# curl -L -o car_jumping.zip -C - https://cmu.box.com/shared/static/pgk82o7d8knab4r59zr2tkcg1485yhk9.zip
+# curl -L -o car_rc_rolling.zip -C - https://cmu.box.com/shared/static/qvsigpje57zg7h1s7ftg0y4g1pdk01cj.zip
+# curl -L -o car_rc_rotating.zip -C - https://cmu.box.com/shared/static/y2fp2uquqrv7zpbxkbcrn3u9uaok40a7.zip
+# curl -L -o car_side.zip -C - https://cmu.box.com/shared/static/stxqqfkeptiraezmy0dmp97go6950i4i.zip
+# curl -L -o car_white.zip -C - https://cmu.box.com/shared/static/zytnbio3508nrtzbdlveynw0t5zh0mtr.zip
+# curl -L -o car.zip -C - https://cmu.box.com/shared/static/qld257nppqb6759g3mh8l8ukye2eiy44.zip
+# curl -L -o cheetah.zip -C - https://cmu.box.com/shared/static/qx76ojjhst13744stylpnldwfhf41mwu.zip
+# curl -L -o cup_2.zip -C - https://cmu.box.com/shared/static/9fu6pi9nr5xaofw74jbywn4gmi6jkoz7.zip
+# curl -L -o cup.zip -C - https://cmu.box.com/shared/static/0tv2xg61zqcfheiyxcgugeqdejiio5ep.zip
+# curl -L -o dog_1.zip -C - https://cmu.box.com/shared/static/4hou01w4tmbmusekbbngzugnx2avw0da.zip
+# curl -L -o dog_2.zip -C - https://cmu.box.com/shared/static/awufswwb7e3y553mtjqcz5ngqphx6v3m.zip
+# curl -L -o dog_3.zip -C - https://cmu.box.com/shared/static/ct29aoab7ckzvyyn5euxlvivax9yw8y1.zip
+# curl -L -o dog.zip -C - https://cmu.box.com/shared/static/yv3lf4bbbts6rrw1ig885kusow8vsy3l.zip
+# curl -L -o dogs.zip -C - https://cmu.box.com/shared/static/hrgmqrr9m15je9n3yvc0y9wduiu2sqbt.zip
+# curl -L -o dollar.zip -C - https://cmu.box.com/shared/static/nqrm46jwb0lhp0gt1it5mwuif1hclo2o.zip
+# curl -L -o drone.zip -C - https://cmu.box.com/shared/static/c3rz7gwmpr6qp2qypfkv5stji7el4g6r.zip
+# curl -L -o ducks_lake.zip -C - https://cmu.box.com/shared/static/pv6k13g85re0tytoexdnpy246t8l3r9x.zip
+# curl -L -o exit.zip -C - https://cmu.box.com/shared/static/5uptlk0gh9yve92f85q2erqgj0xlviuj.zip
+# curl -L -o first.zip -C - https://cmu.box.com/shared/static/pmz9mx0t986rb8ltfa23rbeu1h2gkbb2.zip
+# curl -L -o flower.zip -C - https://cmu.box.com/shared/static/socjlbywh558genr1vedf7nrw9jh36at.zip
+# curl -L -o footbal_skill.zip -C - https://cmu.box.com/shared/static/kwciwrct81c36hy1czht76b199z55pyv.zip
+# curl -L -o Gymnastics.zip -C - https://cmu.box.com/shared/static/nmo2p9fbx5ts0q023sywca55xgn6iu2g.zip
+# curl -L -o helicopter.zip -C - https://cmu.box.com/shared/static/fs7mn51293c6ss4az2wjll8dmyrngbyx.zip
+# curl -L -o horse_jumping.zip -C - https://cmu.box.com/shared/static/evk5o75zhn8bf5wpkesjc7driasldixm.zip
+# curl -L -o horse_running.zip -C - https://cmu.box.com/shared/static/vhr2op8aen8ylmykuf6dxaq3l7ksns3v.zip
+# curl -L -o iceskating_6.zip -C - https://cmu.box.com/shared/static/35anbd6cgbn23ug27pyg0jfo049rdzjz.zip
+# curl -L -o jellyfish_5.zip -C - https://cmu.box.com/shared/static/9bzzf4jlmco7efb8b2f1b9upzntwrgk0.zip
+# curl -L -o kid_swing.zip -C - https://cmu.box.com/shared/static/hx37v858igfmfks2ikyuayadj63b9kif.zip
+# curl -L -o MachLoop_jet.zip -C - https://cmu.box.com/shared/static/lcixa22km0vb5noxxh2eyh46caob9hh8.zip
+# curl -L -o motorcross_kawasaki.zip -C - https://cmu.box.com/shared/static/jo9ia54sksqdhpyf59q7194yfux3mk4p.zip
+# curl -L -o motorcross.zip -C - https://cmu.box.com/shared/static/xgr9juft98crm3jbqaozmuocryohf8ri.zip
+# curl -L -o parkour.zip -C - https://cmu.box.com/shared/static/jbt0igcboae4ez2kq5b29mn8we7pyn8c.zip
+# curl -L -o person_scooter.zip -C - https://cmu.box.com/shared/static/82jp7bj5as89a6qgaxv310bmqhhm2k3b.zip
+# curl -L -o pingpong_2.zip -C - https://cmu.box.com/shared/static/g1lww7fdaoifm5crqyvvr2ds1ix3j9ag.zip
+# curl -L -o pingpong_7.zip -C - https://cmu.box.com/shared/static/tnkn71w8yuyx684bobc2s81v00gt8p4f.zip
+# curl -L -o pingpong_8.zip -C - https://cmu.box.com/shared/static/1r03nbw1m3cyoaapq96bd1wnu39pu2q7.zip
+# curl -L -o purse.zip -C - https://cmu.box.com/shared/static/e7i2hu6lwzhrnr3brhkbopo7zu30p2dk.zip
+# curl -L -o rubber.zip -C - https://cmu.box.com/shared/static/yoinbdolkdkh8l2dgjypzxqqi14xfuff.zip
+curl -L -o running_2.zip -C - https://cmu.box.com/shared/static/8ujc555oulvewynpa3gnjpru8o0yq912.zip
+# curl -L -o running_100_m_2.zip -C - https://cmu.box.com/shared/static/4m0xuh3n33tyyx3a1x6mx7w0ksj0jkqw.zip
+# curl -L -o running_100_m.zip -C - https://cmu.box.com/shared/static/pcfodlgdiwu4yckisrk5flcza31psm7p.zip
+# curl -L -o running.zip -C - https://cmu.box.com/shared/static/ig2vqrjo7i5ulr9lnet65jxsct6zr8r2.zip
+# curl -L -o shuffleboard_1.zip -C - https://cmu.box.com/shared/static/8wel9mrlioez60hcu9wav700kiyjhlrg.zip
+# curl -L -o shuffleboard_2.zip -C - https://cmu.box.com/shared/static/1miu3tzqfiybi6h9qykm7350x0wpkumj.zip
+# curl -L -o shuffleboard_4.zip -C - https://cmu.box.com/shared/static/x1est8ash9wo6zyotaliwv8pom867zs6.zip
+# curl -L -o shuffleboard_5.zip -C - https://cmu.box.com/shared/static/zk5n9i913j7u6503q53x5f2x8301xqiu.zip
+# curl -L -o shuffleboard_6.zip -C - https://cmu.box.com/shared/static/swunirkic17901zvurs3ekjbhyjrbrdi.zip
+# curl -L -o shuffletable_2.zip -C - https://cmu.box.com/shared/static/960y7d3rlq386uh6vwrm3n868k7q2brl.zip
+# curl -L -o shuffletable_3.zip -C - https://cmu.box.com/shared/static/yagxav78z1jfyjfapextjsmgt35udpuq.zip
+# curl -L -o shuffletable_4.zip -C - https://cmu.box.com/shared/static/n9rw1u6as6a0gt1ww1wjf5hdz5vvgdd6.zip
+# curl -L -o ski_long.zip -C - https://cmu.box.com/shared/static/uo59q7vli6cmudcvx04c6moujuil4074.zip
+# curl -L -o Skiing_red.zip -C - https://cmu.box.com/shared/static/l4nfvrr5dt9g14sux392ppr5w9f89e5m.zip
+# curl -L -o Skydiving.zip -C - https://cmu.box.com/shared/static/060e2e2q8njabjc3mb1i5kxxwsyp7p5i.zip
+# curl -L -o soccer_ball_2.zip -C - https://cmu.box.com/shared/static/lheayprolozqk5app336zf8mq71fkvup.zip
+# curl -L -o soccer_ball_3.zip -C - https://cmu.box.com/shared/static/2ji59bpzboel2orugceuztg07wt45r6d.zip
+# curl -L -o soccer_ball.zip -C - https://cmu.box.com/shared/static/vq08qndg50f82cr3kmu13oih20gxiz07.zip
+curl -L -o soccer_player_2.zip -C - https://cmu.box.com/shared/static/xxuj25unh95zdy1huqg80ghqw043ove4.zip
+curl -L -o soccer_player_3.zip -C - https://cmu.box.com/shared/static/6zwtoqj6kl5zqf86ufwrf2o8wigukj6s.zip
+# curl -L -o stop_sign.zip -C - https://cmu.box.com/shared/static/w4ca3wrymrymztol1wntiqcv6mbx8pqt.zip
+# curl -L -o suv.zip -C - https://cmu.box.com/shared/static/kevd8udef5w6mp6mrvapu56scykpiie2.zip
+# curl -L -o tiger.zip -C - https://cmu.box.com/shared/static/iept9rmvystysg6jy6470gk1y3c95nzr.zip
+curl -L -o walking_3.zip -C - https://cmu.box.com/shared/static/my1qi6voop4g8u4x5gos4zbiky3o5i9z.zip
+curl -L -o walking.zip -C - https://cmu.box.com/shared/static/8ts5lla723y25w7aqg8xc3x1yovqnpc1.zip
+# curl -L -o water_ski_2.zip -C - https://cmu.box.com/shared/static/dsnxt9fqriivqilcqgul2v6b0k2g36xk.zip
+# curl -L -o yoyo.zip -C - https://cmu.box.com/shared/static/9m2bvwtrii9bwwqn4lr1cv09jtvfd4xi.zip
+# curl -L -o zebra_fish.zip -C - https://cmu.box.com/shared/static/87u3rehnise9m12alo8cj40wylooteju.zip

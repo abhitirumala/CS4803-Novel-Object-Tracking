@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+from datetime import datetime
+
 class CNNForecaster(nn.Module):
     
     def __init__(self, input_shape, output_shape, num_layers, dropout, embedding_size=32):
@@ -59,12 +61,18 @@ if __name__ == "__main__":
     output shape: (2, 8)
     num_layers: 4
     """
+    times = []
     model = CNNForecaster((4, 20), (4, 1), 4, 0.5, 32)
-    test_tensor = torch.randn(32, 4, 20)
     
-    output = model(test_tensor)
-    output = model.reshape_output(output)
-    print(output.shape)
+    for i in range(10000):
+        test_tensor = torch.randn(32, 4, 20)
+        
+        start = datetime.now()
+        output = model(test_tensor)
+        output = model.reshape_output(output)
+        times.append(datetime.now() - start)
+    
+    print(np.mean(times))
         
         
             

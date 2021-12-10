@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+matplotlib
+sklearn
+tqdm
+pandas
+seaborn
+datetime
+opencv-python
+cvlib
+time
+os
+sys
